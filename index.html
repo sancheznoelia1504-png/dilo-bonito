@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dilo Bonito - Invitaciones Digitales</title>
+  <style>
+    body { margin: 0; font-family: "Segoe UI", sans-serif; color: #444; background: #fafafa;}
+    header { background: #ffffffcc; backdrop-filter: blur(8px); position: fixed; top: 0; left: 0; width: 100%; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); z-index: 1000;}
+    header h1 { font-size: 24px; letter-spacing: 1px; color: #222; margin: 0;}
+    nav a { margin-left: 20px; text-decoration: none; color: #555; font-weight: 500;}
+    section { padding: 120px 40px 80px; max-width: 1100px; margin: auto;}
+    .hero { text-align: center; padding: 160px 20px; background: linear-gradient(to bottom right, #ffffff, #f1f1f1); border-bottom: 1px solid #eee;}
+    .hero h2 { font-size: 48px; margin-bottom: 10px; color: #222;}
+    .hero p { font-size: 20px; max-width: 700px; margin: auto; color: #666;}
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 40px;}
+    .card { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); text-align: center;}
+    .card img { width: 100%; border-radius: 10px;}
+    .card h3 { margin-top: 15px; color: #333;}
+    footer { text-align: center; padding: 40px; background: #fff; color: #777; border-top: 1px solid #eee; margin-top: 40px;}
+    .btn { display: inline-block; padding: 12px 24px; background: #e7d9f5; color: #333; text-decoration: none; border-radius: 8px; margin-top: 20px; font-weight: 500;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dilo Bonito</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#sobre">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Invitaciones Digitales Elegantes</h2>
+    <p>Crea momentos inolvidables con diseños personalizados, modernos y listos para compartir en todas tus redes.</p>
+    <a href="#contacto" class="btn">Hacer mi invitación</a>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/400x300" alt="Invitaciones animadas" />
+        <h3>Invitaciones animadas</h3>
+        <p>Formatos modernos con movimiento, música y efectos elegantes.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x300" alt="Invitaciones estáticas" />
+        <h3>Invitaciones estáticas</h3>
+        <p>Diseños simples, finos y perfectos para cualquier celebración.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/400x300" alt="Tarjetas personalizadas" />
+        <h3>Tarjetas personalizadas</h3>
+        <p>Para bautismos, cumpleaños, despedidas y todo tipo de eventos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <p>Próximamente podrás ver aquí tus propios trabajos. Solo reemplazá las imágenes por las tuyas.</p>
+    <div class="grid">
+      <img src="https://via.placeholder.com/500x300" class="card" />
+      <img src="https://via.placeholder.com/500x300" class="card" />
+      <img src="https://via.placeholder.com/500x300" class="card" />
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre mí</h2>
+    <p>Soy la creadora de <strong>Dilo Bonito</strong>, un espacio dedicado a transformar tus eventos en experiencias visuales memorables. Trabajo con amor, dedicación y un estilo elegante adaptado a tus necesidades.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Realizá tu pedido o consultá precios.</p>
+    <p>Email: <strong>tucorreo@example.com</strong></p>
+    <p>WhatsApp: <strong>+54 9 ___ ___</strong></p>
+  </section>
+
+  <footer>
+    © 2026 Dilo Bonito — Invitaciones Digitales
+  </footer>
+</body>
+</html>
